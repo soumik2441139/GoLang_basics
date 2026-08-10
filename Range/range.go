@@ -3,10 +3,31 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{6, 7, 8}
+	//nums := []int{6, 7, 8}
 
-	fmt.Println("   ")
-	for i := 0; i < len(nums); i++ {
+	//sum := 0
+	/*for i := 0; i < len(nums); i++ {
 		println(nums[i])
+	}*/
+
+	/*for _, num := range nums {
+		sum = sum + num
+	}
+
+	fmt.Println(sum)*/
+
+	//for i, num := range nums {
+	//	fmt.Println(i, num)
+	//}
+
+	/*m := map[string]string{"fname": "john", "lname": "doe"}
+
+	for k, v := range m {
+		fmt.Println(k, v)
+	}*/
+	//unicode code point rune
+	//starting byte of rune
+	for i, c := range "golang" {
+		fmt.Println(i, string(c))
 	}
 }
