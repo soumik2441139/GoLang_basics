@@ -1,0 +1,12 @@
+.idea/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+build/
+tmp/
+File_handling/example.txt
